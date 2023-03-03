@@ -18,6 +18,7 @@ const commonjs = require('@rollup/plugin-commonjs')
 const resolve = require('@rollup/plugin-node-resolve')
 const babel = require('@rollup/plugin-babel')
 const terser = require('@rollup/plugin-terser')
+const postcss = require('rollup-plugin-postcss')
 
 module.exports = {
   // 入口文件
@@ -32,7 +33,8 @@ module.exports = {
     commonjs(),
     resolve(),
     babel({ babelHelpers: 'bundled' }),
-    terser()
+    terser(),
+    postcss()
   ]
 }
 

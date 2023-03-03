@@ -2,6 +2,8 @@
 import { formatDate } from "./utils/format.js"
 // import _ from 'lodash'
 
+import './css/style.css'
+
 const message = 'Hello rollup'
 
 console.log(message)
