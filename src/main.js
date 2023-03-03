@@ -13,11 +13,11 @@ console.log(now)
 import './css/style.css'
 
 
-import App from './vue/App.vue'
-import { createApp } from 'vue'
+// import App from './vue/App.vue'
+// import { createApp } from 'vue'
 
-const app = createApp(App)
-app.mount('#app')
+// const app = createApp(App)
+// app.mount('#app')
 
 const message = 'Hello rollup'
 console.log(message)
